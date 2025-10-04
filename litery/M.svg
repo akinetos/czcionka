@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="500" width="250">      
+      
+     <polygon points="62.5,0 62.5,60 0,500" fill="black" />
+     <polygon points="62.5,0 62.5,60 125,500" fill="black" />
+     <polygon points="187.5,0 187.5,60 125,500" fill="black" />
+     <polygon points="187.5,0 187.5,60 250,500" fill="black" />
+
+
+    </svg>
