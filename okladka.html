@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>ACDGV</title>
+		<style>
+			*:not(title, style) {
+				display: flex;
+			}
+			
+			body {
+				width: 100%;
+				height: 100%;
+				align-items: center;
+				justify-content: center;
+			}
+			
+			.row {
+				flex-direction: row;
+			}
+			
+			.column {
+				flex-direction: column;
+			}
+			
+			img {
+				width: 12px;
+				background-color: rgba(0,0,0,0.0618);
+				box-shadow: 0 0 5px rgba(0,0,0,0.618) inset;
+				margin-right: 2px;
+				margin-bottom: 2px;
+			}
+
+			.day, .month, .checksum .label {
+				margin-right: 14px;
+			}
+
+			.yellow {
+				filter: invert(100%) sepia(100%) saturate(7500%) hue-rotate(357deg) brightness(109%) contrast(104%);
+			}
+			
+			.red {
+				filter: invert(14%) sepia(73%) saturate(6891%) hue-rotate(2deg) brightness(102%) contrast(120%);
+			}
+			
+			.green{
+				filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+			}
+			
+			.blue {
+				filter: invert(7%) sepia(100%) saturate(6734%) hue-rotate(246deg) brightness(115%) contrast(142%);
+			}
+			
+			.brown {
+				filter: invert(24%) sepia(81%) saturate(355%) hue-rotate(349deg) brightness(94%) contrast(94%);
+			}
+		</style>
+	</head>
+
+  	<body>
+		<div class="column main">
+			<div class="row logo brown">
+				<img src="litery/A.svg">
+				<img src="litery/C.svg">
+				<img src="litery/D.svg">
+				<img src="litery/G.svg">
+				<img src="litery/V.svg">
+				<img src="litery/O.svg" style="margin-left: 14px;">
+				<img src="litery/S.svg">
+			</div>
+
+			<div class="row brown">
+				<div class="day">
+					<img src="cyfry/1.svg">
+					<img src="cyfry/0.svg">
+				</div>
+				<div class="month">
+					<img src="litery/G.svg">
+					<img src="litery/R.svg">
+					<img src="litery/U.svg">
+					<img src="litery/D.svg">
+					<img src="litery/Z.svg">
+					<img src="litery/I.svg">
+					<img src="litery/E.svg">
+					<img src="litery/N.svg">
+				</div>
+				<div class="year">
+					<img src="cyfry/2.svg">
+					<img src="cyfry/0.svg">
+					<img src="cyfry/2.svg">
+					<img src="cyfry/5.svg">
+				</div>
+			</div>
+			
+			<div class="row checksum brown">
+				<div class="label">
+					<img src="litery/C.svg">
+					<img src="litery/H.svg">
+					<img src="litery/E.svg">
+					<img src="litery/C.svg">
+					<img src="litery/K.svg">
+					<img src="litery/S.svg">
+					<img src="litery/U.svg">
+					<img src="litery/M.svg">
+				</div>
+				<div class="value">
+					<img src="cyfry/5.svg">
+					<img src="litery/A.svg">
+					<img src="litery/F.svg">
+					<img src="cyfry/4.svg">
+					<img src="cyfry/4.svg">
+					<img src="cyfry/1.svg">
+					<img src="litery/A.svg">
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
